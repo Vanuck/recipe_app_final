@@ -3,7 +3,7 @@
 
 ## Preview
 
-![Screenshot](src/media/Loginpage.jpg)
+![Screenshot](media/Loginpage.jpg)
 
 <h2>Overview</h2>
 <p>
