@@ -18,7 +18,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY','django-insecure-ml49cp(e)=yakpe
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['gentle-oasis-49757.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['gentle-oasis-49757.herokuapp.com', '127.0.0.1', 'gentle-oasis-49757-9b743a1eb232.herokuapp.com']
 
 
 # Application definition
