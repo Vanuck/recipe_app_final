@@ -6,7 +6,7 @@ fonttools==4.53.1
 kiwisolver==1.4.7
 matplotlib==3.9.2
 numpy==2.1.1
-pandas==1.5.3
+pandas==2.2.2
 pillow==10.4.0
 psycopg2==2.9.1
 pytz==2021.3
