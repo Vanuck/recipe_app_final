@@ -140,9 +140,20 @@ MEDIA_ROOT = BASE_DIR / "media"
 
 # Heroku: Update database configuration from $DATABASE_URL.
 import dj_database_url
-# db_from_env = dj_database_url.config(conn_max_age=500)
-# DATABASES['default'].update(db_from_env)
+db_from_env = dj_database_url.config(conn_max_age=500)
+DATABASES['default'].update(db_from_env)
 
-DATABASES = {
-    'default': dj_database_url.config(default='postgres://localhost')
-}
+""" DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'your_database_name',
+        'USER': 'your_database_user',
+        'PASSWORD': 'your_database_password',
+        'HOST': 'localhost',  # Or your database host
+        'PORT': '5432',       # Or your database port
+    }
+} """
+
+# DATABASES = {
+#     'default': dj_database_url.config(default='postgres://localhost')
+# }
